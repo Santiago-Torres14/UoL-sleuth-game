@@ -44,6 +44,17 @@ function draw()
     // write the code to join the bullet holes below
 
     // I COULD NOT SOLVE IT
+    beginShape();
+
+    vertex(384, 202);
+    vertex(443, 272);
+
+    vertex(475, 183);
+    vertex(382, 45);
+
+    vertex(436, 38);
+    
+    endShape(CLOSE);
 
     //A helpful mouse pointer
 	push();
